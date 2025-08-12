@@ -7,12 +7,12 @@
 #include "pico/cyw43_arch.h"
 
 #define MQTT_TOPIC_LEN 100 // Tamanho máximo do tópico MQTT
-#define WIFI_SSID "Jr Telecom - Eunice 2G"       // Nome da rede Wi-Fi
-#define WIFI_PASSWORD "eunice0408"   // Senha da rede Wi-Fi
+#define WIFI_SSID "WIFI_NAME"       // Nome da rede Wi-Fi
+#define WIFI_PASSWORD "WIFI_SENHA"   // Senha da rede Wi-Fi
 
-#define MQTT_SERVER "192.168.1.223" // Endereço do servidor MQTT
-#define MQTT_USERNAME "admin"      // Nome de usuário para autenticação MQTT
-#define MQTT_PASSWORD "admin"      // Senha para autenticação MQTT
+#define MQTT_SERVER "IP_MQTT_SERVER" // Endereço do servidor MQTT
+#define MQTT_USERNAME "NOME_USUARIO"      // Nome de usuário para autenticação MQTT
+#define MQTT_PASSWORD "SENHA_USUARIO"      // Senha para autenticação MQTT
 
 typedef struct // Estrutura de dados para o cliente MQTT
 {
