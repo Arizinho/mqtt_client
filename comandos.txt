@@ -1,0 +1,13 @@
+
+# iniciar o broker com os logs 
+/opt/homebrew/opt/mosquitto/sbin/mosquitto -c /opt/homebrew/etc/mosquitto/mosquitto.conf -v
+
+# listar servicos com homebrew
+brew services list
+# rodar o servidor com homebrew
+brew services start mosquitto
+# parar servicos com homebrew
+brew services stop mosquitto
+# reiniciar servicos com homebrew
+brew services restart mosquitto
+
